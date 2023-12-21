@@ -19,19 +19,30 @@
 }
 
 body{
+    width: 100%;
+    height: 100%;
     background-color: var(--cor1);
 }
 
 header{
+    padding: 0px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--cor5);
+    /* background-color: var(--cor5); */
 }
 
 .logo{
     margin: 10px;
-    width: 40px;
+    width: 45px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.logo:hover{
+    scale: 1.2;
+    transform: rotate(40deg);
+    transition: 0.5s;
 }
 
 .navbar{
@@ -43,10 +54,20 @@ header{
 
 li{
     margin: 0px 10px;
+    padding: 10px;
     list-style-type: none;
+    border: 2px solid var(--cor5);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s;
 }
 
-main{
+li:hover{
+    background-color: var(--cor5);
+    transition: 0.5s;
+}
+
+main, footer{
     margin: 10px;
     padding: 10px;
     display: flex;
@@ -60,23 +81,56 @@ section{
     padding: 5px;
 }
 
+
+p{
+    max-width: 500px;
+}
+
 .bloco1{
+    width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.apresentacao, .sobre{
+    background-color: var(--cor2);
+    padding: 20px;
+    border-radius: 15px;
 }
 
 .programador{
-    width: 200px;
+    width: 400px;
     border-radius: 50%;
+    transition: 0.4s;
 }
 
-h1,h2{
+.programador:hover{
+    transform: translateX(20px);
+    transition: 0.4s;
+}
+
+h1{
+    font-size: 50px;
+    margin: 10px 0px;
+    color: var(--cor3);
+}
+
+h2{
     margin: 10px 0px;
     text-align: center;
 }
 
-footer{
-    margin: 20px;
-    padding: 15px;
+.tecnologias{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.html,.css,.javascript{
+    width: 100px;
+    margin: 10px 40px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
 }
