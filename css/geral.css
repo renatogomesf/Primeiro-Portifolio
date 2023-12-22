@@ -1,3 +1,5 @@
+
+/*----- CONFIGURAÇÕES GERAIS -----*/
 @charset "UTF-8";
 
 *{
@@ -28,6 +30,8 @@ body{
     background-color: var(--cor1);
 }
 
+
+/*----- BARRA DE NAVEGAÇÃO -----*/
 header{
     margin: 0px 80px;
     padding: 0px 20px;
@@ -78,6 +82,8 @@ a{
     font-weight: 600;
 }
 
+
+/*----- CONTEÚDO PRINCIPAL -----*/
 main{
     margin: 10px;
     padding: 10px;
@@ -90,11 +96,6 @@ main{
 section{
     margin: 30px 10px;
     padding: 5px;
-}
-
-
-p{
-    max-width: 500px;
 }
 
 .bloco1{
@@ -136,6 +137,8 @@ p{
     border-radius: 15px;
 }
 
+
+/*----- IMAGENS E TEXTOS -----*/
 .img_conversa{
     width: 300px;
 }
@@ -159,6 +162,10 @@ h3{
     margin: 10px 0px;
     text-align: center;
     font-size: 3rem;
+}
+
+p{
+    max-width: 500px;
 }
 
 .tecnologias{
@@ -189,6 +196,8 @@ h3{
     transition: 0.4s;
 }
 
+
+/*----- FOOTER -----*/
 hr{
     border-color: var(--cor3);
 }
@@ -218,6 +227,7 @@ hr{
 }
 
 
+/*----- BOTÃO HOME -----*/
 .btn_voltar{
     position: fixed;
     bottom: 40px;
