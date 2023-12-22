@@ -8,14 +8,15 @@
     <link rel="stylesheet" href="css/geral.css">
 </head>
 <body>
-    <header>
+    <!-- BARRA DE NAVEGAÇÃO -->
+    <header id="home">
         <img class="logo" src="img/logo2.png" alt="logo">
         <nav>
             <ul class="navbar">
-                <li><a href="#sobremim">Sonbre mim</a></li>
-                <li><a href="#habilidades">Habilidades</a></li>
-                <li><a href="#projetos">Projetos</a></li>
-                <li><a href="#contato">Contato</a></li>
+                <a href="#sobremim"><li>Sonbre mim</li></a>
+                <a href="#habilidades"><li>Habilidades</li></a>
+                <a href="#projetos"><li>Projetos</li></a>
+                <a href="#contato"><li>Contato</li></a>
             </ul>
         </nav>
     </header>
@@ -72,13 +73,32 @@
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti, nam quam. A, quos ducimus impedit ipsum quidem ea similique ad dolor, explicabo temporibus doloribus magnam illum, corrupti quasi laboriosam culpa?</p>
         </section>
     </main>
+
     <hr>
+
     <footer>
-        <section id="contato" class="contato">
-            <h3>Contatos</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum libero perferendis dolorem ullam perspiciatis ea officiis cumque atque, provident ipsam quis non sunt similique, quas consequatur itaque, pariatur fugit! Dolore.</p>
+        <!-- CONTATOS -->
+        <section id="contato">
+            <h4>Contatos:</h4>
+            <div>
+                <a class="link" href="https://www.linkedin.com/in/renato-gomes-22b759236/" target="_blank" rel="external">
+                    <img class="linkedin" src="img/linkedin-icon.png" alt="linkedin">
+                    <p>LinkedIn</p>
+                </a>
+            </div>
+            <div>
+                <a class="git" href="https://github.com/renatogomesf" target="_blank" rel="external">
+                    <img class="github" src="img/github.png" alt="github">
+                    <P>GitHub</P>
+                </a>
+            </div>
         </section>
     </footer>
+
+    <!-- BOTÃO HOME -->
+    <a href="#home"> 
+        <img class="btn_voltar" src="img/setas-para-cima.png" alt="voltar">
+    </a>
     <script src="js/script.js"></script>
 </body>
 </html>
