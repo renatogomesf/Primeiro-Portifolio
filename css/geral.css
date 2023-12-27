@@ -1,6 +1,6 @@
-
 /*----- CONFIGURAÇÕES GERAIS -----*/
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap');
 
 *{
     margin: 0px;
@@ -10,8 +10,6 @@
 html{
     scroll-behavior: smooth;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;800&display=swap');
 
 :root{
     --cor1: #292e33;
@@ -60,7 +58,7 @@ header{
     align-items: center;
 }
 
-.li{
+li{
     margin: 0px 10px;
     padding: 10px;
     list-style-type: none;
@@ -70,7 +68,7 @@ header{
     transition: 0.5s;
 }
 
-.li:hover{
+li:hover{
     background-color: var(--cor5);
     box-shadow: 0px 0px 30px var(--cor3);
     transition: 0.5s;
@@ -79,7 +77,7 @@ header{
 a{
     text-decoration: none;
     color: white;
-    font-weight: 600;
+    font-weight: bold;
 }
 
 .modo{
@@ -93,25 +91,6 @@ label{
     padding: 5px;
     font-weight: bold;
     cursor: pointer;
-}
-
-input[type="checkbox"]{
-    cursor: pointer;
-    appearance: none;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    background-color: rgb(233, 233, 168);
-    box-shadow: 0px 0px 20px yellow;
-    padding: 10px;
-    margin: 5px;
-    transition: 0.4s;
-}
-
-input[type="checkbox"]:checked{
-    background-color: var(--cor4);
-    box-shadow: 0px 0px 20px var(--cor4);
-    transition: 0.4s;
 }
 
 /*----- CONTEÚDO PRINCIPAL -----*/
@@ -148,26 +127,26 @@ section{
 }
 
 .sobre{
+    padding: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: var(--cor2);
-    padding: 20px;
     border-radius: 15px;
-    transition: 0.4s;
-}
-
-.sobre:hover{
-    box-shadow: 0px 0px 30px var(--cor3);
     transition: 0.4s;
 }
 
 .projetos,.habilidades{
-    background-color: var(--cor2);
     padding: 20px;
+    background-color: var(--cor2);
     border-radius: 15px;
+    transition: 0.4s;
 }
 
+.sobre:hover,.projetos:hover,.habilidades:hover{
+    box-shadow: 0px 0px 30px var(--cor3);
+    transition: 0.4s;
+}
 
 /*----- IMAGENS E TEXTOS -----*/
 .img_conversa{
@@ -180,8 +159,8 @@ section{
 }
 
 h1{
-    font-size: 4rem;
-    margin: 10px 0px;
+    font-size: 5rem;
+    font-weight: 800;
     color: var(--cor3);
 }
 
@@ -206,9 +185,9 @@ p{
 }
 
 .img_html,.img_css,.img_javascript{
-    width: 100px;
     margin: 10px 40px;
     padding: 10px;
+    width: 100px;
     border-radius: 10px;
 }
 
@@ -252,9 +231,9 @@ hr{
 }
 
 .linkedin,.github{
-    width: 30px;
     margin-left: 20px;
     margin-right: 5px;
+    width: 30px;
 }
 
 
