@@ -13,13 +13,13 @@
     <link rel="stylesheet" href="css/mobile.css" media="screen and (max-width: 600px)">
 
     <!-- Tablet e Mobile com telas grandes -->
-    <link rel="stylesheet" href="css/tablets.css" media="screen and (min-width: 601px) and (max-width: 992px)">
+    <!-- <link rel="stylesheet" href="css/tablets.css" media="screen and (min-width: 601px) and (max-width: 992px)"> -->
 
     <!-- Desktop -->
-    <link rel="stylesheet" href="css/desktops.css" media="screen and (min-width: 993px) and (max-width: 1200px)">
+    <!-- <link rel="stylesheet" href="css/desktops.css" media="screen and (min-width: 993px) and (max-width: 1200px)"> -->
 
     <!-- Telas grandes -->
-    <link rel="stylesheet" href="css/telas grandes.css" media="screen and (min-width: 1201px)">
+    <!-- <link rel="stylesheet" href="css/telasgrandes.css" media="screen and (min-width: 1201px)"> -->
     <!--
         /* Extra small devices (phones, 600px and down) */
         @media only screen and (max-width: 600px) {...}
@@ -43,12 +43,20 @@
         <img class="logo" src="img/logo2.png" alt="logo">
         <nav>
             <ul class="navbar">
-                <a href="#sobremim"><li>Sonbre mim</li></a>
-                <a href="#habilidades"><li>Habilidades</li></a>
-                <a href="#projetos"><li>Projetos</li></a>
-                <a href="#contato"><li>Contato</li></a>
+                <a class="navegar" href="#sobremim"><li>Sonbre mim</li></a>
+                <a class="navegar" href="#habilidades"><li>Habilidades</li></a>
+                <a class="navegar" href="#projetos"><li>Projetos</li></a>
+                <a class="navegar" href="#contato"><li>Contato</li></a>
             </ul>
         </nav>
+        <div id="menu">
+            <svg class="menu" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+
+            <svg class="closemenu" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+        </div>
+        <!-- <div class="menu">
+            <img src="img/menu.png" alt="menu">
+        </div> -->
     </header>
     
     <main>
@@ -129,6 +137,7 @@
     <a href="#home"> 
         <img class="btn_voltar" src="img/setas-para-cima.png" alt="voltar">
     </a>
+
     <script src="js/script.js"></script>
 </body>
 </html>
