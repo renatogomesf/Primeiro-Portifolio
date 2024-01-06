@@ -11,6 +11,11 @@ header{
 
 .navbar{
     display: none;
+}
+
+#NAVBAR{
+    padding: 5px 10px;
+    display: none;
     flex-direction: column;
     background-color: var(--cor2);
     border-radius: 10px;
