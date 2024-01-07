@@ -12,7 +12,7 @@ header{
     padding: 20px;
 }
 
-.bloco1{
+.apresentacao{
     display: flex;
     flex-direction: column;
 }
@@ -21,7 +21,9 @@ header{
     width: 200px;
 }
 
-.img_html,.img_css,.img_javascript{
+.img_html,
+.img_css,
+.img_javascript{
     margin: 10px 40px;
     padding: 10px;
     width: 75px;

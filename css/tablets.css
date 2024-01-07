@@ -16,12 +16,12 @@ header{
     padding: 20px;
 }
 
-.bloco1{
+.apresentacao{
     display: flex;
     flex-direction: column;
 }
 
-.bloco2{
+.sobremim{
     max-width: 900px;
 }
 
