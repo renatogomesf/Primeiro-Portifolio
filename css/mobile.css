@@ -87,7 +87,15 @@ h2{
 }
 
 .bloco2{
-    margin: 15px;
+    width: 90%;
+}
+
+.projetos,.habilidades{
+    width: 80%;
+    padding: 20px;
+    background-color: var(--cor2);
+    border-radius: 15px;
+    transition: 0.4s;
 }
 
 .img_conversa{
@@ -102,21 +110,16 @@ h2{
     align-items: center;
 }
 
-/* .habilidades{
-    width: 100%;
-} */
-
 .tecnologias{
     display: flex;
     flex-direction: column;
 }
 
-.projetos{
+/* .projetos{
     margin: 15px;
-}
+} */
 
 .btn_voltar{
-    /* display: none; */
     position: fixed;
     bottom: 35px;
     right: 5px;
