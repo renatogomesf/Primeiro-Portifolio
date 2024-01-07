@@ -19,7 +19,7 @@ header{
     flex-direction: column;
     background-color: var(--cor2);
     border-radius: 10px;
-    width: 91%;
+    width: 60%;
     position: absolute;
     top: 70px;
     right: 10px;
