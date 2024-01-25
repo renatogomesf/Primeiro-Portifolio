@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio - Renato Gomes</title>
-    <link rel="shortcut icon" href="img/logo2.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/geral/logo2.png" type="image/x-icon">
 
     <!-- MEDIA QUERY -->
     <link rel="stylesheet" href="css/geral.css" media="all">
@@ -24,7 +24,7 @@
 <body>
     <!-- BARRA DE NAVEGAÇÃO -->
     <header id="home">
-        <img class="logo" src="img/logo2.png" alt="logo">
+        <img class="logo" src="img/geral/logo2.png" alt="logo">
         <nav>
             <!-- NavBar Desktop/Telas grandes -->
             <ul class="navbar">
@@ -52,54 +52,116 @@
     
     <main>
         <!-- APRESENTAÇÃO -->
-        <section class="apresentacao">
-            <div>
-                <p>Olá, meu nome é</p>
-                <h1>Renato Gomes.</h1>
-                <h2>Desenvolvedor Front-End.</h2>
-            </div>
-            <div>
-                <img class="programador" src="img/frontend.png" alt="programador">
-            </div>
+        <section class="seçao">
+            <article class="apresentacao">
+                <div>
+                    <p>Olá, meu nome é</p>
+                    <h1>Renato Gomes.</h1>
+                    <h2>Desenvolvedor Front-End.</h2>
+                </div>
+                <div>
+                    <img class="programador" src="img/geral/frontend.png" alt="programador">
+                </div>
+            </article>
         </section>
 
         <!-- SOBRE MIM -->
-        <section id="sobremim" class="sobremim">
+        <section id="sobremim"  class="seçao">
             <h3>Sobre mim</h3>
-            <div class="sobre">
-                <img class="img_conversa" src="img/fala.png" alt="conversa">
-                <div class="conversa">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus vitae consectetur at adipisci eaque quo, inventore praesentium repudiandae, velit dolore necessitatibus quos aspernatur dolores pariatur fugit natus a. Animi, praesentium!</p>
+            <article class="sobremim">
+                <div class="sobre">
+                    <img class="img_conversa" src="img/geral/fala.png" alt="conversa">
+                    <div class="conversa">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus vitae consectetur at adipisci eaque quo, inventore praesentium repudiandae, velit dolore necessitatibus quos aspernatur dolores pariatur fugit natus a. Animi, praesentium!</p>
+                    </div>
                 </div>
-            </div>
+            </article>
         </section>
 
         <!-- HABILIDADES -->
-        <section id="habilidades" class="habilidades">
+        <section id="habilidades" class="seçao">
             <h3>Habilidades</h3>
-            <div class="tecnologias">
-
-                <div class="html">
-                    <img class="img_html" src="img/html2.png" alt="html">
-                    <p>HTML</p>
+            <article class="habilidades">
+                <div class="tecnologias">
+                    <div class="html">
+                        <img class="img_html" src="img/habilidades/html2.png" alt="html">
+                        <p>HTML</p>
+                    </div>
+                    <div class="css">
+                        <img class="img_css" src="img/habilidades/css2.png" alt="css">
+                        <P>CSS</P>
+                    </div>
+                    <div class="js">
+                        <img class="img_javascript" src="img/habilidades/JavaScript.png" alt="js">
+                        <P>JavaScript</P>
+                    </div>
                 </div>
-
-                <div class="css">
-                    <img class="img_css" src="img/css2.png" alt="css">
-                    <P>CSS</P>
-                </div>
-
-                <div class="js">
-                    <img class="img_javascript" src="img/JavaScript2.png" alt="js">
-                    <P>JavaScript</P>
-                </div>
-            </div>
+            </article>
         </section>
 
         <!-- PROJETOS -->
-        <section id="projetos" class="projetos">
+        <section id="projetos" class="seçao">
             <h3>Projetos</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti, nam quam. A, quos ducimus impedit ipsum quidem ea similique ad dolor, explicabo temporibus doloribus magnam illum, corrupti quasi laboriosam culpa?</p>
+            <article class="projetos">
+
+                <div class="projeto01">
+                    <a href="https://renatogomesf.github.io/Perguntas-e-Respostas/" target="_blank">
+                        <img class="img_jogo_pergunta" src="img/projetos/jogo de perguntas.png" alt="jogo de perguntas">
+                    </a>
+                    <div class="descriçao">
+                        <h4>Perguntas e Respostas.</h4>
+                        <p>Jogo de conhecimentos gerais de múltiplas escolhas na qual só existe uma correta.</p>
+                        <p>Tecnologias usadas:</p>
+                        <div class="tec">
+                            <img class="tec_html" src="img/habilidades/html2.png" alt="html">
+                            <img class="tec_css" src="img/habilidades/css2.png" alt="css">
+                            <img class="tec_js" src="img/habilidades/JavaScript.png" alt="javascript">
+                        </div>
+                        <a class="codigo" href="https://github.com/renatogomesf/Perguntas-e-Respostas" target="_blank">
+                            Clique aqui para acessar o código.
+                        </a>
+                    </div>
+                </div>
+
+                <div class="projeto02">
+                    <a href="https://renatogomesf.github.io/Lista/" target="_blank">
+                        <img class="img_lista" src="img/projetos/lista.png" alt="lista">
+                    </a>
+                    <div class="descriçao">
+                        <h4>Lista.</h4>
+                        <p>Aplicativo para armazenar informações no geral, em forma de lista.</p>
+                        <p>Tecnologias usadas:</p>
+                        <div class="tec">
+                            <img class="tec_html" src="img/habilidades/html2.png" alt="html">
+                            <img class="tec_css" src="img/habilidades/css2.png" alt="css">
+                            <img class="tec_js" src="img/habilidades/JavaScript.png" alt="javascript">
+                        </div>
+                        <a class="codigo" href="https://github.com/renatogomesf/Lista" target="_blank">
+                            Clique aqui para acessar o código.
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="projeto03">
+                    <a href="https://renatogomesf.github.io/Calculadora/" target="_blank">
+                        <img class="img_calculadora" src="img/projetos/calculadora.png" alt="calculadora">
+                    </a>
+                    <div class="descriçao">
+                        <h4>Calculadora.</h4>
+                        <p>Aplicativo para efetuar calculos simples e rápidos.</p>
+                        <p>Tecnologias usadas:</p>
+                        <div class="tec">
+                            <img class="tec_html" src="img/habilidades/html2.png" alt="html">
+                            <img class="tec_css" src="img/habilidades/css2.png" alt="css">
+                            <img class="tec_js" src="img/habilidades/JavaScript.png" alt="javascript">
+                        </div>
+                        <a class="codigo" href="https://github.com/renatogomesf/Calculadora" target="_blank">
+                            Clique aqui para acessar o código.
+                        </a>
+                    </div>
+                </div>
+
+            </article>
         </section>
     </main>
 
@@ -107,31 +169,33 @@
 
     <footer>
         <!-- CONTATOS -->
-        <section class="contato">
-            <div id="contato">
-                <h4>Contatos:</h4>
-                <div>
-                    <a class="link" href="https://www.linkedin.com/in/renato-gomes-22b759236/" target="_blank" rel="external">
-                        <img class="linkedin" src="img/linkedin-icon.png" alt="linkedin">
-                        <p>LinkedIn</p>
-                    </a>
+        <section>
+            <article class="contato">
+                <div id="contato">
+                    <h4 class="txt_contato">Contatos:</h4>
+                    <div>
+                        <a class="link" href="https://www.linkedin.com/in/renato-gomes-22b759236/" target="_blank" rel="external">
+                            <img class="linkedin" src="img/geral/linkedin-icon.png" alt="linkedin">
+                            <p>LinkedIn</p>
+                        </a>
+                    </div>
+                    <div>
+                        <a class="git" href="https://github.com/renatogomesf" target="_blank" rel="external">
+                            <img class="github" src="img/geral/github.png" alt="github">
+                            <P>GitHub</P>
+                        </a>
+                    </div>
                 </div>
-                <div>
-                    <a class="git" href="https://github.com/renatogomesf" target="_blank" rel="external">
-                        <img class="github" src="img/github.png" alt="github">
-                        <P>GitHub</P>
-                    </a>
+                <div class="copy">
+                    <p>&copy; Renato Gomes</p>
                 </div>
-            </div>
-            <div class="copy">
-                <p>&copy; Renato Gomes</p>
-            </div>
+            </article>
         </section>
     </footer>
 
     <!-- BOTÃO HOME -->
     <a href="#home"> 
-        <img class="btn_voltar" src="img/setas-para-cima.png" alt="voltar">
+        <img class="btn_voltar" src="img/geral/setas-para-cima.png" alt="voltar">
     </a>
 
     <script src="js/script.js"></script>
