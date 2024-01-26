@@ -1,5 +1,12 @@
 @charset "UTF-8";
 
+body{
+    width: 100%;
+}
+
+
+
+/*----- HEADER -----*/
 .menu,#menu,.closemenu{
     display: none;
 }
@@ -8,14 +15,13 @@
     display: none;
 }
 
-body{
-    width: 100%;
-}
-
 header{
     padding: 20px;
 }
 
+
+
+/*----- MAIN -----*/
 .apresentacao{
     display: flex;
     flex-direction: column;

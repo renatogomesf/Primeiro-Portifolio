@@ -1,11 +1,9 @@
 const menu = document.querySelector("#menu")
-
 const abrir_svg = document.querySelector(".menu")
 const fechar_svg = document.querySelector(".closemenu")
-
 const navbar = document.querySelector("#NAVBAR")
-
 const fechar = [...document.querySelectorAll("#NAVBAR")]
+
 
 menu.addEventListener("click",()=>{
     if(navbar.style.display == "flex"){
@@ -18,6 +16,7 @@ menu.addEventListener("click",()=>{
         abrir_svg.style.display = "none"
     }
 })
+
 
 fechar.map((el)=>{
     el.addEventListener("click",()=>{

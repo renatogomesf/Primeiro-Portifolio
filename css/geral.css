@@ -28,7 +28,8 @@ body{
 }
 
 
-/*----- BARRA DE NAVEGAÇÃO -----*/
+
+/*----- HEADER -----*/
 header{
     padding: 0px 100px;
     display: flex;
@@ -87,7 +88,9 @@ a{
     font-weight: bold;
 }
 
-/*----- CONTEÚDO PRINCIPAL -----*/
+
+
+/*----- MAIN -----*/
 main{
     margin: 10px;
     padding: 10px;
@@ -144,12 +147,16 @@ main{
     transition: 0.4s;
 }
 
-/* .sobremim:hover,
+.sobremim:hover,
 .projetos:hover,
 .habilidades:hover{
-    box-shadow: 0px 0px 30px var(--cor3);
+    box-shadow: 0px 0px 0px 2px var(--cor3);
     transition: 0.4s;
-} */
+}
+
+.paragrafo{
+    text-indent: 15px;
+}
 
 .img_conversa{
     width: 300px;
@@ -198,7 +205,7 @@ p{
     margin: 10px 20px;
     padding: 10px;
     width: 100px;
-    border-radius: 10px;
+    filter: drop-shadow(5px 5px 5px black);
 }
 
 .html:hover,
@@ -235,10 +242,6 @@ p{
     align-items: center;
 }
 
-/* .projeto02{
-    flex-direction: row-reverse;
-} */
-
 .img_jogo_pergunta,
 .img_lista,
 .img_calculadora{
@@ -261,24 +264,15 @@ p{
     justify-content: start;
 }
 
-/* .descriçao02{
-    margin: 0px 15px;
-    text-align: end;
-} */
-
 .tec{
     display: flex;
     justify-content: start;
     align-items: center;
 }
 
-/* .tec02{
-    display: flex;
-    justify-content: end;
-    align-items: center;
-} */
-
-.tec_html,.tec_css,.tec_js{
+.tec_html,
+.tec_css,
+.tec_js{
     width: 40px;
     margin: 5px;
 }
@@ -287,6 +281,8 @@ p{
     text-decoration: underline;
     transition: 0.5s;
 }
+
+
 
 /*----- FOOTER -----*/
 hr{
@@ -327,6 +323,7 @@ hr{
     margin-right: 5px;
     width: 30px;
 }
+
 
 
 /*----- BOTÃO HOME -----*/
