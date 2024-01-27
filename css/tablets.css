@@ -27,8 +27,23 @@ header{
     flex-direction: column;
 }
 
+.meu_nome{
+    margin-right: 0px;
+}
+
+.programador{
+    margin-top: 30px;
+}
+
 .sobremim{
     max-width: 900px;
+}
+
+.sobre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 h1{
@@ -36,7 +51,7 @@ h1{
 }
 
 .img_conversa{
-    width: 200px;
+    width: 300px;
 }
 
 .img_html,.img_css,.img_javascript{

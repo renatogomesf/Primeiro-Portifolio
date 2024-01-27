@@ -23,8 +23,16 @@ header{
     flex-direction: column;
 }
 
+.meu_nome{
+    margin-right: 0px;
+}
+
+.programador{
+    margin-top: 30px;
+}
+
 .img_conversa{
-    width: 200px;
+    width: 300px;
 }
 
 .img_html,

@@ -73,6 +73,10 @@ main{
     align-items: center;
 }
 
+.meu_nome{
+    margin-right: 0px;
+}
+
 h1{
     font-size: 2.5rem;
 }
@@ -83,6 +87,7 @@ h2{
 
 .programador{
     width: 300px;
+    margin-top: 30px;
 }
 
 .projetos,.habilidades{
@@ -93,9 +98,6 @@ h2{
     transition: 0.4s;
 }
 
-.img_conversa{
-    width: 200px;
-}
 
 .sobre{
     padding: 10px 0px;
@@ -103,6 +105,10 @@ h2{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.img_conversa{
+    width: 250px;
 }
 
 .tecnologias{
