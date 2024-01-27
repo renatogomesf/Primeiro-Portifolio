@@ -111,6 +111,11 @@ h2{
     width: 250px;
 }
 
+.ver_curriculo,
+.baixar_curriculo{
+    margin-right: 5px;
+}
+
 .tecnologias{
     display: flex;
     flex-direction: column;

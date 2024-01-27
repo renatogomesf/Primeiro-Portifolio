@@ -132,10 +132,47 @@ main{
     transition: 0.4s;
 }
 
+.linkedin_inicio,
+.github_inicio{
+    fill: white;
+    margin-top: 10px;
+    margin-right: 10px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.linkedin_inicio:hover,
+.github_inicio:hover{
+    fill: var(--cor3);
+    transition: 0.4s;
+}
+
 .sobre{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.ver_curriculo,
+.baixar_curriculo{
+    margin-top: 10px;
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid var(--cor3);
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.ver_curriculo:hover,
+.baixar_curriculo:hover{
+    background-color: var(--cor5);
+    transition: 0.5s;
 }
 
 .projetos,
@@ -308,25 +345,26 @@ hr{
     font-size: 20px;
 }
 
-.link,.git{
+.link,
+.git{
     display: flex;
     align-items: center;
     justify-content: center;
     transition: 0.4s;
 }
 
-.link:hover,
-.git:hover{
-    scale: 1.1;
+.link:hover > .linkedin,
+.git:hover > .github{
     transition: 0.4s;
+    fill: var(--cor5);
 }
 
-.linkedin,.github{
+.linkedin,
+.github{
     margin-left: 20px;
     margin-right: 5px;
-    width: 30px;
+    fill: white;
 }
-
 
 
 /*----- BOTÃO HOME -----*/
