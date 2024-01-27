@@ -90,7 +90,8 @@ h2{
     margin-top: 30px;
 }
 
-.projetos,.habilidades{
+.projetos,
+.habilidades{
     width: 80%;
     padding: 20px;
     background-color: var(--cor2);
@@ -111,9 +112,17 @@ h2{
     width: 250px;
 }
 
+.curriculo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .ver_curriculo,
 .baixar_curriculo{
-    margin-right: 5px;
+    margin: 10px;
+    width: 150px;
 }
 
 .tecnologias{
