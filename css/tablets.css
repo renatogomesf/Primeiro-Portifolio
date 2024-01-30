@@ -72,10 +72,19 @@ h1{
     align-items: center;
 }
 
+.link_jogo,
+.link_lista,
+.link_calc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .img_jogo_pergunta,
 .img_lista,
 .img_calculadora{
     margin: 10px 0px;
-    width: 500px;
+    width: 90%;
+    max-width: 600px;
     border-radius: 10px;
 }
