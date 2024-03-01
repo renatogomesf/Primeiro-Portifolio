@@ -235,14 +235,17 @@ p{
 }
 
 .tecnologias{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    gap: 20px;
 }
 
 .img_html,
 .img_css,
-.img_javascript{
+.img_javascript,
+.img_git,
+.img_github,
+.img_react{
     margin: 10px 20px;
     padding: 10px;
     width: 100px;
@@ -251,12 +254,20 @@ p{
 
 .html:hover,
 .css:hover,
-.js:hover{
+.js:hover,
+.git-habilidade:hover,
+.github-habilidade:hover,
+.react:hover{
     transform: translateY(-20px);
     transition: 0.4s;
 }
 
-.html,.css,.js{
+.html,
+.css,
+.js,
+.git-habilidade,
+.github-habilidade,
+.react{
     padding: 10px;
     border-radius: 15px;
     display: flex;
@@ -264,6 +275,12 @@ p{
     align-items: center;
     justify-content: center;
     transition: 0.4s;
+}
+
+.estudando{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 100px;
 }
 
 .projetos{
@@ -280,6 +297,18 @@ p{
     max-width: 800px;
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+.esquerda{
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: end;
+}
+
+.tec-esquerda{
+    display: flex;
+    justify-content: end;
     align-items: center;
 }
 

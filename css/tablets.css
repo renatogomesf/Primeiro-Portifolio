@@ -72,6 +72,15 @@ h1{
     align-items: center;
 }
 
+.descriçao{
+    text-align: start;
+}
+
+.tec-esquerda{
+    display: flex;
+    justify-content: start;
+}
+
 .link_jogo,
 .link_lista,
 .link_calc{

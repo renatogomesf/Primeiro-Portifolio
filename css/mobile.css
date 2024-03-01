@@ -141,6 +141,15 @@ h2{
     align-items: center;
 }
 
+.descriçao{
+    text-align: start;
+}
+
+.tec-esquerda{
+    display: flex;
+    justify-content: start;
+}
+
 .img_jogo_pergunta,
 .img_lista,
 .img_calculadora{
