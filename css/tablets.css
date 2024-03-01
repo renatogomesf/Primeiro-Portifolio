@@ -54,11 +54,19 @@ h1{
     width: 300px;
 }
 
-.img_html,.img_css,.img_javascript{
+.img_html,
+.img_css,
+.img_javascript{
     margin: 10px 30px;
     padding: 10px;
     width: 75px;
     border-radius: 10px;
+}
+
+.tecnologias{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    gap: 20px;
 }
 
 .projeto01,
