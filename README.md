@@ -3,7 +3,7 @@
 
 ## Sobre o projeto
 
-https://renatogomesf.github.io/Portifolio/
+https://renatogomesf.github.io/Primeiro-Portifolio/
 
 Meu primeiro portifólio que foi criado logo após o término do curso de **HTML 5** e **CSS 3** do [Curso em Video](https://www.cursoemvideo.com/) e, posteriormente, foi utilizado **JavaScript** para poder ser feita a troca de icones do menu mobile. O portifólio é totalmente responsivo, se adaptando a vários tamanhos de telas.
 
