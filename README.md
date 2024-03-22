@@ -27,7 +27,7 @@ O projeto consiste em uma página onde busca expor, de forma simplificada, quem 
 
 Logo no topo, há uma barra de navegação na qual é possível escolher uma opção e, após o clique, será feita a rolagem até a seção desejada. Para não ser necessário fazer a rolagem manual até o topo, do lado direito inferior, há um botão que fará isso para você. 
 
-Na seção "Sobre mim", há dois botões que, ao serem clicados e estando na verção web, é possível vizualizar o currículo, clicando no botão esquerdo, e, clicando no botão direito, é possível baixa-lo. Caso o acesso seja via mobile, os dois botões acabam baixando o currículo instantaneamente.
+Na seção "Sobre mim", há dois botões que, ao serem clicados e estando na verção web, é possível vizualizar o currículo ou baixa-lo, se assim desejar. Caso o acesso seja via mobile, os dois botões acabam baixando o currículo instantaneamente.
 
 Na seção "Projetos", para acessar a aplicação, basta clicar na imagem. Para ver o repositório, basta clicar em "Ver código."
 
